@@ -7,7 +7,7 @@
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 html {
@@ -37,10 +37,17 @@ ul>li {
 }
 
 .btn {
-    border-radius: 2em;
+    border-radius: .5em;
     border: none;
-    padding: 1em;
+    padding: .5em;
     font-size: 1.5em;
+}
+
+.card,
+.reset-btn {
+    cursor: pointer;
+    background: none;
+	border: .2em solid #7bc9a2;
 }
 
 /* Header */
@@ -83,9 +90,44 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 40em;
-    width: 40em;
+    height: 35em;
+    width: 35em;
     padding: .5em;
     margin-bottom: 6em;
-
 }
+
+
+
+/* Score panel */
+
+/* play around with sizing */
+
+.score-panel {
+	font-size: 1.4em;
+	padding: 1em 0 2em;
+}
+
+.moves-counter {
+	padding: 0.5em;
+}
+
+.reset-btn {
+	background: none;
+	border: .2em solid #7bc9a2;
+    color: aliceblue;
+}
+
+.timer-container {
+	background: #d99aad;
+	border-radius: 0.5em;
+	color: #af588b;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+
+.timer {
+	font-size: 1em;
+}
+
+/* Modal settings */
