@@ -234,4 +234,22 @@ deck.addEventListener("click", function(evt) {
 	}
 }); //Event Listener
 
+/*----------------------------------  
+Restart Buttons
+------------------------------------*/
+/*
+Event Listener to listen for a click on the reset
+button, once clicked call resetEverything()
+*/
+reset.addEventListener('click', resetEverything);
+
+/*
+Event Listener to listen for a click on the play
+again button, once clicked call resetEverything()
+*/
+playAgain.addEventListener('click',function() {
+	modal.style.display = "none";
+	resetEverything();
+});
+
 
