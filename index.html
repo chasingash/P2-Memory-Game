@@ -1,15 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="./assets/css/style.css">    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
 </head>
+
 <body>
-    <header>
-    </header>
+    <!-- Game Title -->
+    <div class="container">
+        <header class="header">
+            <h1>Jungle Memory Game</h1>
+            <h2>A game to test your memory</h2>
+        </header>
+    </div>
+    <!-- Game - generated in Javascript -->
+    <section>
+        <ul class="deck"></ul>
+    </section>
+    <!-- Score Panel -->
+    <section class="score-panel">
+        <h3>Score Panel</h3>
+        <span class="moves-counter">0</span> Moves
+        <div class="timer-container">
+            <span class="timer"><i class="fa fa-hourglass-start"></i> Timer: 00:00</span>
+        </div>
+        <div class="reset">
+            <button class="btn reset-btn">Reset</i></button>
+        </div>
+    </section>
+    <!-- Modal -->
+    <section class="modal-you-win">
+        <div id="modal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Congrats!</h2>
+                <p>You have won by matching all 8 pairs of the cards.</p>
+                <img class="modal-img" src="assets/images/card9.jpg"
+                    alt="Vault boy giving the thumbs up from the game fall out">
+                <button class="btn play-again-btn">Play Again?</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <script src="./assets/js/script.js"></script>
-    
 </body>
+
 </html>
