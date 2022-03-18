@@ -3,3 +3,36 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #01474f;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 63%;
+	letter-spacing: .1em;
+	margin: 0;
+	text-align: center;
+	color: white;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 0.5em;
+}
+
+ul>li {
+	list-style: none;
+} 
+
+.btn {
+	border-radius: 2em;
+	border: none;
+	padding: 1.5em;
+	font-size: 1.2em;
+}
