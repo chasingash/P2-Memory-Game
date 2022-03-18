@@ -133,3 +133,25 @@ function match() {
 	movesCounter();
 	starRating();
 }
+
+/*
+If the two cards do not match, remove the cards
+from the opened array and flip the cards back over by
+removing the flip class.
+*/
+function noMatch() {
+	/* After 700 miliseconds the two cards open will have
+	the class of flip removed from the images parent element <li>*/
+	setTimeout(function() {
+		// Remove class flip on images parent element
+		opened[0].parentElement.classList.remove("flip");
+		opened[1].parentElement.classList.remove("flip");
+		// Allow further mouse clicks on cards
+		document.body.style.pointerEvents = "auto";
+		// Remove the cards from opened array
+		opened = [];
+	}, 700);
+	// Call movesCounter to increment by one
+	movesCounter();
+	starRating();
+}
