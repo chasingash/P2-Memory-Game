@@ -96,6 +96,61 @@ h3 {
     margin-bottom: 6em;
 }
 
+.card {
+	background: #01474f;
+	border-radius: 0.5em;
+	height: 7em;
+	width: 7em;
+}
+
+img {
+	user-select: none;
+	width: 100%;
+	height: 100%;
+}
+
+.deck img {
+	visibility: hidden;
+}
+.deck .card.flip {
+	background: #fff;
+	cursor: default;
+	transform: rotateY(180deg);
+	transition: transform 0.3s linear;
+	pointer-events: none;
+}
+
+.flip img {
+	background: #fff;
+	visibility: visible;
+}
+
+.deck .card.match {
+	background: #39d;
+	visibility: visible;
+	cursor: default;
+	animation: pulse 1s;
+}
+.match img {
+	background: #39d;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+
+	80% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+
+
 
 
 /* Score panel */
