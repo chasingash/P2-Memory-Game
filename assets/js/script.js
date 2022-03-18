@@ -1,7 +1,7 @@
 // Card Images Array
 const deckCards = ["card1.jpg", "card1.jpg", "card2.jpg", "card2.jpg", "card3.jpg", "card3.jpg", "card4.jpg", "card4.jpg", "card5.jpg", "card5.jpg", "card6.jpg", "card6.jpg", "card7.jpg", "card7.jpg", "card8.jpg", "card8.jpg"];
-// Global Arrays
 
+// Variables
 const deck = document.querySelector(".deck");
 let opened = [];
 let matched = [];
@@ -30,7 +30,7 @@ function shuffle(array) {
     return array;
 }
 
-//Start The Game
+// Function to start the game
 function startGame() {
     const shuffledDeck = shuffle(deckCards);
     for (let i = 0; i < shuffledDeck.length; i++) {
@@ -74,25 +74,62 @@ function stopTime() {
 
 // Reset HTML elements and all global variables
 function resetEverything() {
-	stopTime();
-	timeStart = false;
-	seconds = 0;
-	minutes = 0;
-	timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
-	moves = 0;
-	movesCount.innerHTML = 0;
-	matched = [];
-	opened = [];
-	removeCard();
-	startGame();
+    stopTime();
+    timeStart = false;
+    seconds = 0;
+    minutes = 0;
+    timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
+    moves = 0;
+    movesCount.innerHTML = 0;
+    matched = [];
+    opened = [];
+    removeCard();
+    startGame();
 }
 
 // Moves counter for each matching pair of cards
 
 function movesCounter() {
-	// Update the html for the moves counter
-	movesCount.innerHTML ++;
-	// Keep track of the number of moves for every pair checked
-	moves ++;
+    movesCount.innerHTML++;
+    moves++;
 }
 
+
+// Compare two cards to see if they match
+function compareTwo() {
+    if (opened.length === 2) {
+        document.body.style.pointerEvents = "none";
+    }
+    if (opened.length === 2 && opened[0].src === opened[1].src) {
+        match();
+    } else if (opened.length === 2 && opened[0].src != opened[1].src) {
+        // If No match call noMatch()
+        noMatch();
+        // console.log("NO Match!");
+    }
+}
+
+/*
+If the two cards match, keep the cards open and
+apply class of match
+*/ 
+function match() {
+	/* Access the two cards in opened array and add
+	the class of match to the imgages parent: the <li> tag
+	*/
+	setTimeout(function() {
+		opened[0].parentElement.classList.add("match");
+		opened[1].parentElement.classList.add("match");
+		// Push the matched cards to the matched array
+		matched.push(...opened);
+		// Allow for further mouse clicks on cards
+		document.body.style.pointerEvents = "auto";
+		// Check to see if the game has been won with all 8 pairs
+		winGame();
+		// Clear the opened array
+		opened = [];
+	}, 600);
+	// Call movesCounter to increment by one
+	movesCounter();
+	starRating();
+}
