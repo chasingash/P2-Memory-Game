@@ -79,9 +79,6 @@ function resetEverything() {
 	seconds = 0;
 	minutes = 0;
 	timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
-	star[1].firstElementChild.classList.add("fa-star");
-	star[2].firstElementChild.classList.add("fa-star");
-	starCount = 3;
 	moves = 0;
 	movesCount.innerHTML = 0;
 	matched = [];
@@ -89,3 +86,13 @@ function resetEverything() {
 	removeCard();
 	startGame();
 }
+
+// Moves counter for each matching pair of cards
+
+function movesCounter() {
+	// Update the html for the moves counter
+	movesCount.innerHTML ++;
+	// Keep track of the number of moves for every pair checked
+	moves ++;
+}
+
