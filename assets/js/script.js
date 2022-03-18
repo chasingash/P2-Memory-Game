@@ -177,3 +177,18 @@ function AddStats() {
 		p[2].innerHTML = "Your Star Rating is: " + starCount + " out of 3";
 }
 
+
+/*
+Check the length of the matched array and if there
+are 8 pairs 16 cards all together then the game is won.
+Stop the timer update the modal with stats and show the modal
+*/
+function winGame() {
+	if (matched.length === 16) {
+		stopTime();
+		AddStats();
+		displayModal();
+	}
+}
+
+
