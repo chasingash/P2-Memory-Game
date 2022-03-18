@@ -5,4 +5,7 @@ const deckCards = ["card1.jpg", "card1.jpg", "card2.jpg", "card2.jpg", "card3.jp
 const deck = document.querySelector(".deck");
 let opened = [];
 let matched = [];
+const reset = document.querySelector(".reset-btn");
+const playAgain = document.querySelector(".play-again-btn");
+
 
