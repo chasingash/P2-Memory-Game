@@ -15,7 +15,7 @@ let minutes = 0;
 let seconds = 0;
 let timeStart = false;
 
-// Shuffle function from http://stackoverflow.com/a/2450976
+// Shuffle function found on http://stackoverflow.com/a/2450976
 function shuffle(array) {
     let currentIndex = array.length, temporaryValue, randomIndex;
   
@@ -28,6 +28,43 @@ function shuffle(array) {
     }
     return array;
   }
+
+  //Start The Game
+  function startGame() {
+	const shuffledDeck = shuffle(deckCards); 
+	for (let i = 0; i < shuffledDeck.length; i++) {
+		const liTag = document.createElement('LI');
+		liTag.classList.add('card');
+		const addImage = document.createElement("IMG");
+		liTag.appendChild(addImage);
+		addImage.setAttribute("src", "assets/images/" + shuffledDeck[i] + "?raw=true");
+		addImage.setAttribute("alt", "image of vault boy from fallout");
+		deck.appendChild(liTag);
+	}
+}
+
+startGame();
+
+function removeCard() {
+
+    while (deck.hasChildNodes()) {
+		deck.removeChild(deck.firstChild);
+	}
+}
+
+// Used to update the timer -  https://www.w3schools.com/js/js_timing.asp
+
+function timer() {
+	time = setInterval(function() {
+		seconds++;
+			if (seconds === 60) {
+				minutes++;
+				seconds = 0;
+			}
+		
+		timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: " + minutes + " Mins " + seconds + " Secs" ;
+	}, 1000);
+}
 
 
 
