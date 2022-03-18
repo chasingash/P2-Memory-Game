@@ -7,5 +7,8 @@ let opened = [];
 let matched = [];
 const reset = document.querySelector(".reset-btn");
 const playAgain = document.querySelector(".play-again-btn");
+const movesCount = document.querySelector(".moves-counter");
+let moves = 0;
+
 
 
