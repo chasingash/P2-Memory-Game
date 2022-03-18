@@ -1,40 +1,46 @@
 /* Global Styles */
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
 }
 
 html {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	background-color: #01474f;
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 63%;
-	letter-spacing: .1em;
-	margin: 0;
-	text-align: center;
-	color: white;
+    background-color: #01474f;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 63%;
+    letter-spacing: .1em;
+    margin: 0;
+    text-align: center;
+    color: white;
 }
 
 .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5em;
 }
 
 ul>li {
-	list-style: none;
-} 
+    list-style: none;
+}
 
 .btn {
-	border-radius: 2em;
-	border: none;
-	padding: 1em;
-	font-size: 1.5em;
+    border-radius: 2em;
+    border: none;
+    padding: 1em;
+    font-size: 1.5em;
 }
 
 /* Header */
@@ -42,27 +48,44 @@ ul>li {
 h1,
 h2,
 h3 {
-	color: #7bc9a2;
+    color: #7bc9a2;
 }
 
 h1 {
-	font-size: 4em;
-	font-weight: 400;
-	font-family: 'Courier New', Courier, monospace;
-	letter-spacing: .5em;
-	font-weight: bold;
-	text-shadow: 2px 4px #af588b;
+    font-size: 4em;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .5em;
+    font-weight: bold;
+    text-shadow: 2px 4px #af588b;
 }
+
 h2 {
-	font-size: 2em;
-	font-weight: 400;
-	letter-spacing: .5em;
+    font-size: 2em;
+    font-weight: 400;
+    letter-spacing: .5em;
 }
 
 p {
-	font-size: 1.6em;
+    font-size: 1.6em;
 }
 
 h3 {
-	font-weight: 400;
+    font-weight: 400;
+}
+
+/* Game Area - created with mobile first in mind */
+
+.deck {
+    background: linear-gradient(to bottom, #d99aad, #af588b);
+    border-radius: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 40em;
+    width: 40em;
+    padding: .5em;
+    margin-bottom: 6em;
+
 }
