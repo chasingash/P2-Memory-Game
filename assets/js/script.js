@@ -155,3 +155,25 @@ function noMatch() {
 	movesCounter();
 	starRating();
 }
+
+// Get stats on the time, how many moves and update the modal with these stats
+function AddStats() {
+	// Access the modal content div
+	const stats = document.querySelector(".modal-content");
+	// Create three different paragraphs
+	for (let i = 1; i <= 3; i++) {
+		// Create a new Paragraph
+		const statsElement = document.createElement("p");
+		// Add a class to the new Paragraph
+		statsElement.classList.add("stats");
+		// Add the new created <p> tag to the modal content
+		stats.appendChild(statsElement);
+	}
+	// Select all p tags with the class of stats and update the content
+	let p = stats.querySelectorAll("p.stats");
+			// Set the new <p> to have the content of stats (time, moves and star rating)
+		p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
+		p[1].innerHTML = "Moves Taken: " + moves;
+		p[2].innerHTML = "Your Star Rating is: " + starCount + " out of 3";
+}
+
