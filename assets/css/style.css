@@ -33,11 +33,18 @@ ul>li {
 .btn {
 	border-radius: 2em;
 	border: none;
-	padding: 1.5em;
-	font-size: 1.2em;
+	padding: 1em;
+	font-size: 1.5em;
 }
 
 /* Header */
+
+h1,
+h2,
+h3 {
+	color: #7bc9a2;
+}
+
 h1 {
 	font-size: 4em;
 	font-weight: 400;
@@ -45,4 +52,17 @@ h1 {
 	letter-spacing: .5em;
 	font-weight: bold;
 	text-shadow: 2px 4px #af588b;
+}
+h2 {
+	font-size: 2em;
+	font-weight: 400;
+	letter-spacing: .5em;
+}
+
+p {
+	font-size: 1.6em;
+}
+
+h3 {
+	font-weight: 400;
 }
