@@ -53,12 +53,6 @@ ul>li {
 
 /* Header */
 
-header {
-    width: 100%;
-    background-color: #01474f;
-    padding: .5em;
-}
-
 h1,
 h2,
 h3 {
@@ -90,6 +84,7 @@ p {
     font-size: 1rem;
     font-weight: 100;
     margin-top: 2em;
+    color: #7bc9a2;
 }
 
 .link {
