@@ -92,7 +92,17 @@ p {
 #footer {
     font-size: 1rem;
     font-weight: 100;
+    margin-top: 2em;
 }
+
+.link {
+    color: pink;
+}
+
+.link:hover {
+    background-color: #af588b;
+}
+
 h3 {
     font-weight: 400;
 }
@@ -207,7 +217,7 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 
 .modal {
 	/*Hidden by default */
-	display: contents;
+	display: none;
 	position: fixed;
 	z-index: 99;
 	left: 0;
@@ -280,10 +290,6 @@ p.stats:last-child {
 		width: 10em;
 	}
 
-	.deck img {
-		width: 9em;
-	}
-
 	.modal-content h2 {
 		font-size: 4em;
 	}
@@ -311,10 +317,6 @@ p.stats:last-child {
 	.card {
 		height: 15em;
 		width: 15em;
-	}
-
-	.deck img {
-		width: 13em;
 	}
 
 	.reset-btn {
