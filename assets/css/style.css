@@ -68,13 +68,14 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     letter-spacing: .5em;
     font-weight: bold;
+    text-transform: uppercase;
     text-shadow: 2px 4px #af588b;
 }
 
 h2 {
     font-size: 2em;
     font-weight: 400;
-    letter-spacing: .5em;
+    letter-spacing: .1em;
 }
 
 p {
