@@ -1,17 +1,16 @@
-# **Memory Game
+# JUNGLE MEMORY GAME - Project Portfolio 2  - HTML, CSS & JavaScript
+
+Jungle Memory Game is a matching game using custom vector patterns I created in Adobe illustrator. This is a solo player game. It is timed and counts how many moves it takes to find all matching pairs. This mini web game is fully responsive, created with mobile-first in mind. 
 
 Project is deployed [here](https://chasingash.github.io/P2-Memory-Game/)
 
 Github repository is [here](https://github.com/chasingash/P2-Memory-Game)
 
-![screen shot of am i responsive](https://github.com)
+![screen shot of am i responsive](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647701492/P2/Screenshot_2022-03-19_at_14.24.46_eobzjq.png)
 
-# Introduction
+# Objective
 
-#### Jungle Memory Game is a matching game using vector patterns I created in Adobe Illustration before converting to jpegs. This game is to be played solo. It is timed and counts how many moves it takes to find all matching pairs. This mini web game is fully responsive, created with mobile-first in mind. 
-
-#### This is my 2nd portfolio project with the purpose being to develop an interactive Front-End web application using HTML, CSS, and JavaScript based on the principles for user experience design, accessibility, and responsivity. 
-
+For my second project, I will develop an interactive Front-End web application using HTML, CSS, and JavaScript based on the principles for user experience design, accessibility, and responsivity. 
 
 # User Experience/User Interface (UX/UI)
 
@@ -20,6 +19,18 @@ Github repository is [here](https://github.com/chasingash/P2-Memory-Game)
   <summary>User Experience/User Interface (UX/UI)</summary>
 
 ### User Stories
+As a user it is important to:
+
+1. Easily navigate the pame.
+2. Understand the rules.
+3. Understand how to start.
+4. Flip cards to play the game.
+5. To clearly see images to match.
+6. To see how long it takes to complete the game with the timer.
+7. To see if they have won.
+8.  To play again.
+9.  To return to the home page.
+
 ##### First Time Visitor Goals
 ##### Return/frequent Visitor Goals.
 ##### Website's Owner Goals.
