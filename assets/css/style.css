@@ -86,7 +86,7 @@ h2 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
 #footer {
@@ -226,6 +226,12 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 	height: 100%;
 }
 
+.modal-h2 {
+    color: #7bc9a2;
+    text-shadow: 2px 4px #01474f;
+    margin-bottom: .5em;
+}
+
 /* Modal Content/Box */
 .modal-content {
 	display: flex;
@@ -233,7 +239,6 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 	justify-content: center;
 	align-items: center;
 	background-color: #af588b;
-	/* 5% from the top and centered */
 	margin: 5% auto;
 	border: 0.8em solid #d99aad;
 	padding-right: 1em;
@@ -254,13 +259,6 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 	cursor: pointer;
 }
 
-/* Modal Image*/
-.modal-img {
-	display: inline-block;
-	margin: 1em 0 1em;
-	width: 20em;
-}
-
 p.stats {
 	font-weight: 600;
 }
@@ -270,10 +268,12 @@ p.stats:last-child {
 }
 
 .play-again-btn {
-	background: #01474f;
-    color: #fff;
-	margin-bottom: 1em;
+	background: #d99aad;
+    color: #af588b;
+	margin: 1em 0;
+    font-size: 1.2rem;
 }
+
 
 /* Media Queries */
 
