@@ -115,7 +115,7 @@ apply class of match
 */ 
 function match() {
 	/* Access the two cards in opened array and add
-	the class of match to the imgages parent: the <li> tag
+	the class of match to the images parent: the <li> tag
 	*/
 	setTimeout(function() {
 		opened[0].parentElement.classList.add("match");

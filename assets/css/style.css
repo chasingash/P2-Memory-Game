@@ -200,3 +200,67 @@ img {
 }
 
 /* Modal settings */
+
+/* Help with the modal from
+https://www.w3schools.com/howto/howto_css_modals.asp
+*/
+
+.modal {
+	/*Hidden by default */
+	display: contents;
+	position: fixed;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #af588b;
+	/* 5% from the top and centered */
+	margin: 5% auto;
+	border: 0.8em solid #d99aad;
+	padding-right: 1em;
+	width: 80%;
+}
+
+/* The Close Button */
+.close {
+	align-self: flex-end;
+	color: #d99aad;
+	font-size: 5em;
+}
+
+.close:hover,
+.close:focus {
+	color: #01474f;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Modal Image*/
+.modal-img {
+	display: inline-block;
+	margin: 1em 0 1em;
+	width: 20em;
+}
+
+p.stats {
+	font-weight: 600;
+}
+
+p.stats:last-child {
+	margin-bottom: 1em;
+}
+
+.play-again-btn {
+	background: #01474f;
+    color: #fff;
+	margin-bottom: 1em;
+}
