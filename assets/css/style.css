@@ -16,10 +16,11 @@ html {
 
 body {
     /*background-color: #01474f;*/
-    background-image: url(../images/card1.jpg);
+    /* background-image: url(../images/card1.jpg); */
+    background-image: url(https://res.cloudinary.com/dtbdqnrln/image/upload/v1647704056/P2/animal_skin_green_tones_vammmi.svg);
     background-repeat: repeat;
     background-size: contain;
-    height: 35vh;
+    height: 20vh;
     font-family: 'Courier New', Courier, monospace;
     font-size: 63%;
     letter-spacing: .1em;
@@ -51,7 +52,6 @@ ul>li {
 .reset-btn {
     cursor: pointer;
     background: none;
-    border: .2em solid #7bc9a2;
 }
 
 /* Header */

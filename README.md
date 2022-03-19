@@ -19,6 +19,8 @@ For my second project, I will develop an interactive Front-End web application u
   <summary>User Experience/User Interface (UX/UI)</summary>
 
 ### User Stories
+
+##### First Time Visitor Goals
 As a user it is important to:
 
 1. Easily navigate the pame.
@@ -30,8 +32,6 @@ As a user it is important to:
 7. To see if they have won.
 8.  To play again.
 9.  To return to the home page.
-
-##### First Time Visitor Goals
 ##### Return/frequent Visitor Goals.
 ##### Website's Owner Goals.
 
