@@ -5,6 +5,7 @@ const deckCards = ["card1.jpg", "card1.jpg", "card2.jpg", "card2.jpg", "card3.jp
 const deck = document.querySelector(".deck");
 let opened = [];
 let matched = [];
+const modal = document.getElementById("modal");
 const reset = document.querySelector(".reset-btn");
 const playAgain = document.querySelector(".play-again-btn");
 const movesCount = document.querySelector(".moves-counter");
@@ -171,11 +172,33 @@ function AddStats() {
 	}
 	// Select all p tags with the class of stats and update the content
 	let p = stats.querySelectorAll("p.stats");
-			// Set the new <p> to have the content of stats (time, moves and star rating)
+			// Set the new <p> to have the content of stats (time and moves)
 		p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
 		p[1].innerHTML = "Moves Taken: " + moves;
-		p[2].innerHTML = "Your Star Rating is: " + starCount + " out of 3";
 }
+
+/*
+Display the modal on winning the game
+Help with the modal from:
+https://www.w3schools.com/howto/howto_css_modals.asp
+*/
+function displayModal() {
+	// Access the modal <span> element (x) that closes the modal
+	const modalClose = document.getElementsByClassName("close")[0];
+		// When the game is won set modal to display block to show it
+		modal.style.display= "block";
+	
+		// When the user clicks on <span> (x), close the modal
+		modalClose.onclick = function() {
+			modal.style.display = "none";
+		};
+	// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		};
+	}
 
 
 /*
@@ -183,6 +206,7 @@ Check the length of the matched array and if there
 are 8 pairs 16 cards all together then the game is won.
 Stop the timer update the modal with stats and show the modal
 */
+
 function winGame() {
 	if (matched.length === 16) {
 		stopTime();
