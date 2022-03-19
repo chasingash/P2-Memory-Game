@@ -8,9 +8,9 @@ Github repository is [here](https://github.com/chasingash/P2-Memory-Game)
 
 # Introduction
 
-### Jungle Memory Game is a matching game using vector patterns I created in Adobe Illustration before converting to jpegs. This game is to be played solo. It is timed and counts how many moves it takes to find all matching pairs. This mini web game is fully responsive, created with mobile-first in mind. 
+#### Jungle Memory Game is a matching game using vector patterns I created in Adobe Illustration before converting to jpegs. This game is to be played solo. It is timed and counts how many moves it takes to find all matching pairs. This mini web game is fully responsive, created with mobile-first in mind. 
 
-### This is my 2nd portfolio project with the purpose being to develop an interactive Front-End web application using HTML, CSS, and JavaScript based on the principles for user experience design, accessibility, and responsivity. 
+#### This is my 2nd portfolio project with the purpose being to develop an interactive Front-End web application using HTML, CSS, and JavaScript based on the principles for user experience design, accessibility, and responsivity. 
 
 
 # User Experience/User Interface (UX/UI)
