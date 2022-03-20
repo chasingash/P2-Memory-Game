@@ -97,13 +97,13 @@ p {
 }
 
 .link {
-    background-color: #af588b;
-    color: #7bc9a2;
+    background-color: #faebd7;
+    color: #01474f;
 }
 
 .link:hover {
-    background-color: #d99aad;
-    color: #01474f;
+    background-color: #01474f;
+    color: #faebd7;
 }
 
 h3 {
