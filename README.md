@@ -49,19 +49,19 @@ I went for a fresh colour scheme providing plenty of contrast.
 
 * ## Imagery
 
-All imagery was sourced from the website, pexel.com - link site :)
+All illustrations used for the cards are my own original designs that i created in Adobe Illustrator.
+![illustrations](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647807537/P2/Screenshot_2022-03-20_at_20.18.50_vklsow.png) 
 
 # Features
 
-The ARTSPACE website is set up for easy navigation. It contains a navigation bar, a highlighted contact button when hovered over it flips colour and a call to action button centered in the middle, clearly stating “Find a class” which the user is there to do. The overall feel of the site is intended to be inviting while encouraging the user to explore more. I designed this site with mobile first in mind.
+The Memory Game is designed with mobile first in mind. It contains..
 
 ## Existing Features
  
-* ### Navigation bar
+* ### Header Section
 
-Located at the top of the website, it allows its users to intuitively navigate the site. It is fully responsive and contains all links to all sections of the site. It is in a fixed position so that it stays visible, whether you scroll down through the page or use the convenient links nested inside the bar. In mobile view, there is a hamburger icon which also has a fixed position and working links.
- 
-The LOGO is clickable and links back to the homepage. I created it using fonts and css styling. 
+Located at the top of the landing page is the title of the game nested within the Header section called Jungle Memory Game. It is fully responsive across all devices. It is in a fixed position so that it stays visible, whether you scroll down through the page or use the convenient links nested inside the bar. In mobile view, there is a hamburger icon which also has a fixed position and working links.
+
 
 ![Navigation Bar Desktop Image](assets/readme-images/navbar.png)
 
@@ -71,56 +71,36 @@ The LOGO is clickable and links back to the homepage. I created it using fonts a
 
 ![Navigation Bar Desktop Image](assets/readme-images/responsive_navbar_dropdown.png)
 
-* ### Homepage section
+* ### Game section
  
- The homepage has a background image which fits the screen. The image is colourful and playful and gives a good clear direction of what the website is about. This is where the user lands on their initial visit. It is designed to be intuitive and user friendly.
- 
- Overlaid on top of the image is where the main header text appears. It states clearly in large text what the site is about.
- 
- Above the main header text, is more text in slightly smaller text and in uppercase with a catchy slogan to further draw in the user.
- 
- Beneath the Main text is a simple yet effective call-to-action button that directs the user to “Find a class”
  
 ![Navigation Bar Desktop Image](assets/readme-images/hero_image.png)
 
-* ### About Section
+* ### Score Panel Section
 
- The About section gives a clear and concise description of what Artspace is about and its offerings.
 
 ![Navigation Bar Desktop Image](assets/readme-images/about.png)
 
-* ### Class Information Section
+* ### Modal Pop up section
 
-  The Class information section aims to provide the user with the age category, a class description and the day and times for each art class and is fully responsive on all devices.
-
+  
 ![Navigation Bar Desktop Image](assets/readme-images/class_information.png)
 
 ![Navigation Bar Desktop Image](assets/readme-images/class_information_mobile.png)
 
-* ### Contact Section
-
-  The contact form allows for enquiries about its currently run art classes to be sent to the creator.
-
-  The contact section is fully responsive and aligns above the map in mobile view. In larger screens it aligns to the left of the map.
-
-![Navigation Bar Desktop Image](assets/readme-images/contact_map.png)
-
-![Navigation Bar Desktop Image](assets/readme-images/contact_map_mobile.png)
 
 * ### Footer Section
 
-  The Footer contains the social media links. The links open in new individual  tabs. For educational purposes only and open to their respective homepages.
+  The Footer contains an external link to my custom pattern collection.
 
 ![Navigation Bar Desktop Image](assets/readme-images/footer.png)
 
 # Future Implementation
 
-* A newsletter with future upcoming classes. 
-* A monthly blog with art tips and techniques.
-* User Testimonials.
-* An LMS with tutorials to cater for those that don’t live close by.
-* An ecommerce shop selling art supplies. 
-* Create a Favicon.
+* 
+* 
+* 
+* 
 
 # Technologies Used
 
@@ -139,7 +119,7 @@ The LOGO is clickable and links back to the homepage. I created it using fonts a
 
 * ## Code Validation
 
-* The Artspace website has been tested and validated by both the W3C HTML Validator and the W3C CSS Validator. All minor erros found were fixed immediately. 
+* The Jungle Memory Game has been tested and validated by the W3C HTML Validator, the W3C CSS Validator and the JShint validator. All minor errors found were fixed immediately. 
 
 * ### HTML Validation Image
 
