@@ -117,8 +117,8 @@ h3 {
 .card {
     background: #01474f;
     border-radius: 0.5em;
-    height: 7em;
-    width: 7em;
+    height: 6.5em;
+    width: 6.5em;
 }
 
 img {
@@ -180,8 +180,15 @@ img {
     padding: .3em 0 1em;
 }
 
+.score-panel h3 {
+    font-weight: 600;
+    text-shadow: 2px 4px #af588b;
+
+}
+
 .moves-counter {
     padding: 0.5em;
+    color: white;
 }
 
 .reset-btn {
