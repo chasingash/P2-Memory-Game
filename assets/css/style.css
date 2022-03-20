@@ -90,6 +90,8 @@ p {
 }
 
 #footer {
+    background: rgba(1, 71, 79, 0.75);
+    padding: .5em 0;
     font-size: 1rem;
     font-weight: 100;
     margin-top: 2em;
