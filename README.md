@@ -66,13 +66,13 @@ The background image is a green coloured leopard seamless pattern created in Ado
   The site displays properly on a wide range of screen sizes. 
   
     Mobile view
-  ![Mobile view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.13.46_w404yc.png) 
+  ![Mobile view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647815506/P2/Screenshot_2022-03-20_at_22.30.55_vdwroq.png) 
 
     Tablet view
-  ![Tablet view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.14.43_bwfv5z.png) 
+  ![Tablet view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647815506/P2/Screenshot_2022-03-20_at_22.31.06_bne1z1.png) 
 
     Desktop view
-  ![Desktop view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.15.02_rbseyh.png) 
+  ![Desktop view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647815506/P2/Screenshot_2022-03-20_at_22.31.17_psgicx.png) 
 
 
 # Technologies Used
