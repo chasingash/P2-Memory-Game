@@ -18,119 +18,112 @@ let timeStart = false;
 
 // Shuffle function found on http://stackoverflow.com/a/2450976
 function shuffle(array) {
-    let currentIndex = array.length,
-        temporaryValue, randomIndex;
+	let currentIndex = array.length,
+		temporaryValue, randomIndex;
 
-    while (currentIndex !== 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
-    }
-    return array;
+	while (currentIndex !== 0) {
+		randomIndex = Math.floor(Math.random() * currentIndex);
+		currentIndex -= 1;
+		temporaryValue = array[currentIndex];
+		array[currentIndex] = array[randomIndex];
+		array[randomIndex] = temporaryValue;
+	}
+	return array;
 }
 
 // Function to start the game
 function startGame() {
-    const shuffledDeck = shuffle(deckCards);
-    for (let i = 0; i < shuffledDeck.length; i++) {
-        const liTag = document.createElement('LI');
-        liTag.classList.add('card');
-        const addImage = document.createElement("IMG");
-        liTag.appendChild(addImage);
-        addImage.setAttribute("src", "assets/images/" + shuffledDeck[i] + "?raw=true");
-        addImage.setAttribute("alt", "image of vault boy from fallout");
-        deck.appendChild(liTag);
-    }
+	const shuffledDeck = shuffle(deckCards);
+	for (let i = 0; i < shuffledDeck.length; i++) {
+		const liTag = document.createElement('LI');
+		liTag.classList.add('card');
+		const addImage = document.createElement("IMG");
+		liTag.appendChild(addImage);
+		addImage.setAttribute("src", "assets/images/" + shuffledDeck[i] + "?raw=true");
+		addImage.setAttribute("alt", "image of vault boy from fallout");
+		deck.appendChild(liTag);
+	}
 }
 
 startGame();
 
 function removeCard() {
 
-    while (deck.hasChildNodes()) {
-        deck.removeChild(deck.firstChild);
-    }
+	while (deck.hasChildNodes()) {
+		deck.removeChild(deck.firstChild);
+	}
 }
 
 // Used to update the timer -  https://www.w3schools.com/js/js_timing.asp
 
 function timer() {
-    time = setInterval(function () {
-        seconds++;
-        if (seconds === 60) {
-            minutes++;
-            seconds = 0;
-        }
+	time = setInterval(function () {
+		seconds++;
+		if (seconds === 60) {
+			minutes++;
+			seconds = 0;
+		}
 
-        timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: " + minutes + " Mins " + seconds + " Secs";
-    }, 1000);
+		timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: " + minutes + " Mins " + seconds + " Secs";
+	}, 1000);
 }
-/* Used to stop timer once all 8 pairs are matched - https://www.w3schools.com/js/js_timing.asp */
+// Used to stop timer once all 8 pairs are matched - https://www.w3schools.com/js/js_timing.asp
 
 function stopTime() {
-    clearInterval(time);
+	clearInterval(time);
 }
 
 // Reset HTML elements and all global variables
 function resetEverything() {
-    stopTime();
-    timeStart = false;
-    seconds = 0;
-    minutes = 0;
-    timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
-    moves = 0;
-    movesCount.innerHTML = 0;
-    matched = [];
-    opened = [];
-    removeCard();
-    startGame();
+	stopTime();
+	timeStart = false;
+	seconds = 0;
+	minutes = 0;
+	timeCounter.innerHTML = "<i class='fa fa-hourglass-start'></i>" + " Timer: 00:00";
+	moves = 0;
+	movesCount.innerHTML = 0;
+	matched = [];
+	opened = [];
+	removeCard();
+	startGame();
 }
 
 // Moves counter for each matching pair of cards
 
 function movesCounter() {
-    movesCount.innerHTML++;
-    moves++;
+	movesCount.innerHTML++;
+	moves++;
 }
 
 
 // Compare two cards to see if they match
 function compareTwo() {
-    if (opened.length === 2) {
-        document.body.style.pointerEvents = "none";
-    }
-    if (opened.length === 2 && opened[0].src === opened[1].src) {
-        match();
-    } else if (opened.length === 2 && opened[0].src != opened[1].src) {
-        // If No match call noMatch()
-        noMatch();
-        // console.log("NO Match!");
-    }
+	if (opened.length === 2) {
+		document.body.style.pointerEvents = "none";
+	}
+	if (opened.length === 2 && opened[0].src === opened[1].src) {
+		match();
+	} else if (opened.length === 2 && opened[0].src != opened[1].src) {
+		noMatch();
+	}
 }
 
 /*
 If the two cards match, keep the cards open and
 apply class of match
-*/ 
+*/
 function match() {
 	/* Access the two cards in opened array and add
 	the class of match to the images parent: the <li> tag
 	*/
-	setTimeout(function() {
+	setTimeout(function () {
 		opened[0].parentElement.classList.add("match");
 		opened[1].parentElement.classList.add("match");
-		// Push the matched cards to the matched array
 		matched.push(...opened);
-		// Allow for further mouse clicks on cards
 		document.body.style.pointerEvents = "auto";
-		// Check to see if the game has been won with all 8 pairs
 		winGame();
-		// Clear the opened array
 		opened = [];
 	}, 600);
-	// Call movesCounter to increment by one
 	movesCounter();
 	starRating();
 }
@@ -143,16 +136,12 @@ removing the flip class.
 function noMatch() {
 	/* After 700 miliseconds the two cards open will have
 	the class of flip removed from the images parent element <li>*/
-	setTimeout(function() {
-		// Remove class flip on images parent element
+	setTimeout(function () {
 		opened[0].parentElement.classList.remove("flip");
 		opened[1].parentElement.classList.remove("flip");
-		// Allow further mouse clicks on cards
 		document.body.style.pointerEvents = "auto";
-		// Remove the cards from opened array
 		opened = [];
 	}, 700);
-	// Call movesCounter to increment by one
 	movesCounter();
 	starRating();
 }
@@ -172,9 +161,9 @@ function AddStats() {
 	}
 	// Select all p tags with the class of stats and update the content
 	let p = stats.querySelectorAll("p.stats");
-			// Set the new <p> to have the content of stats (time and moves)
-		p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
-		p[1].innerHTML = "Moves Taken: " + moves;
+	// Set the new <p> to have the content of stats (time and moves)
+	p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
+	p[1].innerHTML = "Moves Taken: " + moves;
 }
 
 /*
@@ -185,20 +174,20 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 function displayModal() {
 	// Access the modal <span> element (x) that closes the modal
 	const modalClose = document.getElementsByClassName("close")[0];
-		// When the game is won set modal to display block to show it
-		modal.style.display= "block";
-	
-		// When the user clicks on <span> (x), close the modal
-		modalClose.onclick = function() {
-			modal.style.display = "none";
-		};
+	// When the game is won set modal to display block to show it
+	modal.style.display = "block";
+
+	// When the user clicks on <span> (x), close the modal
+	modalClose.onclick = function () {
+		modal.style.display = "none";
+	};
 	// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		};
-	}
+	window.onclick = function (event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	};
+}
 
 
 /*
@@ -223,14 +212,14 @@ Main Event Listener
 Event Listener if a card <li> is clicked
 call flipCard()
 */
-deck.addEventListener("click", function(evt) {
+deck.addEventListener("click", function (evt) {
 	if (evt.target.nodeName === "LI") {
 		// To console if I was clicking the correct element 
 		console.log(evt.target.nodeName + " Was clicked");
 		// Start the timer after the first click of one card
-	// Executes the timer() function
+		// Executes the timer() function
 		if (timeStart === false) {
-			timeStart = true; 
+			timeStart = true;
 			timer();
 		}
 		// Call flipCard() function
@@ -244,7 +233,7 @@ deck.addEventListener("click", function(evt) {
 		// Call addToOpened() function
 		addToOpened();
 	}
-	 //Add the fliped cards to the empty array of opened
+	//Add the fliped cards to the empty array of opened
 	function addToOpened() {
 		/* If the opened array has zero or one other img push another 
 		img into the array so we can compare these two to be matched
@@ -271,9 +260,7 @@ reset.addEventListener('click', resetEverything);
 Event Listener to listen for a click on the play
 again button, once clicked call resetEverything()
 */
-playAgain.addEventListener('click',function() {
+playAgain.addEventListener('click', function () {
 	modal.style.display = "none";
 	resetEverything();
 });
-
-
