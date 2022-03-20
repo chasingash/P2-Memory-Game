@@ -203,20 +203,16 @@ function winGame() {
 }
 
 
-/*----------------------------------  
-Main Event Listener
-------------------------------------*/
-/*
-Event Listener if a card <li> is clicked
-call flipCard()
-*/
+// Main Event Listener
+
+/* Event Listener if a card <li> is clicked
+call flipCard() */
 deck.addEventListener("click", function (evt) {
 	if (evt.target.nodeName === "LI") {
 		if (timeStart === false) {
 			timeStart = true;
 			timer();
 		}
-		// Call flipCard() function
 		flipCard();
 	}
 

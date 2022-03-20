@@ -115,6 +115,7 @@ The background image is a green coloured leopard seamless pattern created in Ado
 # Technologies Used
 <details>
  <summary>Technologies Used</summary>
+ 
  #### Languages Used
  
 - HTML5
