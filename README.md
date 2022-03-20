@@ -62,53 +62,15 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 # Features
 
-The Memory Game is designed with mobile first in mind. It contains..
+### Responsive  Website
+  The site displays properly on a wide range of screen sizes. 
+    
+  ![Mobile view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.13.46_w404yc.png) 
 
-## Existing Features
- 
-* ### Header Section
+  ![Tablet view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.14.43_bwfv5z.png) 
 
-Located at the top of the landing page is the title of the game nested within the Header section called Jungle Memory Game. It is fully responsive across all devices. It is in a fixed position so that it stays visible, whether you scroll down through the page or use the convenient links nested inside the bar. In mobile view, there is a hamburger icon which also has a fixed position and working links.
+  ![Desktop view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.15.02_rbseyh.png) 
 
-
-![Mobile View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.38_gkxpur.png)
-
-![Tablet View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.50_l3rjoj.png)
-
-![Desktop View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.34.03_ljqmcc.png)
-
-![Navigation Bar Desktop Image](assets/readme-images/responsive_navbar_dropdown.png)
-
-* ### Game section
- 
- 
-![Navigation Bar Desktop Image](assets/readme-images/hero_image.png)
-
-* ### Score Panel Section
-
-
-![Navigation Bar Desktop Image](assets/readme-images/about.png)
-
-* ### Modal Pop up section
-
-  
-![Navigation Bar Desktop Image](assets/readme-images/class_information.png)
-
-![Navigation Bar Desktop Image](assets/readme-images/class_information_mobile.png)
-
-
-* ### Footer Section
-
-  The Footer contains an external link to my custom pattern collection.
-
-![Navigation Bar Desktop Image](assets/readme-images/footer.png)
-
-# Future Implementation
-
-* 
-* 
-* 
-* 
 
 # Technologies Used
 
