@@ -53,6 +53,11 @@ ul>li {
 
 /* Header */
 
+.header {
+    background: rgba(1, 71, 79, 0.75);
+
+}
+
 h1,
 h2,
 h3 {
@@ -74,7 +79,7 @@ h2 {
     font-weight: 400;
     letter-spacing: .1em;
     font-weight: bolder;
-    color: antiquewhite;
+    color: #faebd7;
     text-transform: uppercase;
     margin: .5em 0;
 }
@@ -182,6 +187,9 @@ img {
 .score-panel {
     font-size: 2.4em;
     padding: .3em 0 1em;
+    background: rgba(1, 71, 79, 0.75);
+    border-radius: .5em;
+
 }
 
 .score-panel h3 {
@@ -192,13 +200,13 @@ img {
 
 .moves-counter {
     padding: 0.5em;
-    color: antiquewhite;
+    color: #faebd7;
 }
 
 .reset-btn {
     background: none;
     border: .2em solid #7bc9a2;
-    color: antiquewhite;
+    color: #faebd7;
 }
 
 .timer-container {
@@ -259,7 +267,7 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 
 .close:hover,
 .close:focus {
-	color: #01474f;
+	color: #faebd7;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -273,10 +281,15 @@ p.stats:last-child {
 }
 
 .play-again-btn {
-	background: #d99aad;
+	background: #faebd7;
     color: #af588b;
 	margin: 1em 0;
     font-size: 1.2rem;
+}
+
+.play-again-btn:hover {
+    background: #d99aad;
+    color: #faebd7;
 }
 
 
