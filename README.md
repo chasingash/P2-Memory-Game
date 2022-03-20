@@ -64,11 +64,14 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 ### Responsive  Website
   The site displays properly on a wide range of screen sizes. 
-    
+  
+    Mobile view
   ![Mobile view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.13.46_w404yc.png) 
 
+    Tablet view
   ![Tablet view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.14.43_bwfv5z.png) 
 
+    Desktop view
   ![Desktop view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647810957/P2/Screenshot_2022-03-20_at_21.15.02_rbseyh.png) 
 
 
