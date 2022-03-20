@@ -16,34 +16,39 @@ For my second project, I will develop an interactive Front-End web application u
 
 
 # User Experience (UX)
-## Target Audience
-  * 
-
-## User Stories
-  * 
-  *  
-  * 
-  * 
+### User Stories
+  
+  ##### First Time Visitor Goals:
+  For first time visitors:  
+  - Instructions are clearly visible.
+  - Engaged with game from the initial onset. 
+  - Gameplay is intuitive.
+  - To play on various devices and screen sizes. 
+  
+  ##### Return Visitor Goals:
+  For return visitors:  
+  - Gauge my performance.
+  - Play game on various devices.
+  
+  ##### Website's Owner Goals.
+  As the developer:
+  - I aim to provide a fun and interactive experience.
+  - I aim to encourage continued use of the game.
 
 ## Design Prototype
 I designed a prototype for the memory game on paper first and then moved into Balsamiq where I created numerous wireframes to fit mobile, tablet and desktop devices which provided me with a clear visual outline of how I wanted my game to appear. Some changes were made along the development stage as I experimented with different layouts to suit the needs of the game.
  
 ![Design Prototype Preview](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647702781/P2/Screenshot_2022-03-19_at_15.12.42_xrduuq.png)
 
-## Site Structure
-
-The game is featured on a single-page. 
-
-
 # Design
 
 * ## Typography
  
-Fonts used: Courier New, monospace which I implemented into the CSS file via Google fonts.
+Fonts used: Courier New, monospace. It stands out well against the background and is easy to read.
 
 * ## Colour Scheme
  
-I went for a fresh colour scheme providing plenty of contrast.
+I played around a lot with different colour schemes and settled on the ones below for their fresh colour feel. while providing plenty of contrast.
 
 ![Colour Palette image](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647800610/P2/Screenshot_2022-03-20_at_18.23.23_dcbewr.png)
 
@@ -51,6 +56,9 @@ I went for a fresh colour scheme providing plenty of contrast.
 
 All illustrations used for the cards are my own original designs that i created in Adobe Illustrator.
 ![illustrations](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647807537/P2/Screenshot_2022-03-20_at_20.18.50_vklsow.png) 
+
+The background image is a green coloured leopard seamless pattern created in Adobe Illustrator.
+ ![Background image](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647704056/P2/animal_skin_green_tones_vammmi.svg)  
 
 # Features
 
@@ -63,11 +71,11 @@ The Memory Game is designed with mobile first in mind. It contains..
 Located at the top of the landing page is the title of the game nested within the Header section called Jungle Memory Game. It is fully responsive across all devices. It is in a fixed position so that it stays visible, whether you scroll down through the page or use the convenient links nested inside the bar. In mobile view, there is a hamburger icon which also has a fixed position and working links.
 
 
-![Navigation Bar Desktop Image](assets/readme-images/navbar.png)
+![Mobile View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.38_gkxpur.png)
 
-![Navigation Bar Desktop Image](assets/readme-images/navbar_hover.png)
+![Tablet View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.50_l3rjoj.png)
 
-![Navigation Bar Desktop Image](assets/readme-images/responsive_navbar.png)
+![Desktop View](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.34.03_ljqmcc.png)
 
 ![Navigation Bar Desktop Image](assets/readme-images/responsive_navbar_dropdown.png)
 
