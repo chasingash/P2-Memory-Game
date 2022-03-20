@@ -120,7 +120,7 @@ The background image is a green coloured leopard seamless pattern created in Ado
 - HTML5
  - CSS
  - Javascript
-  #### Applications Used
+#### Applications Used
  
  - [Git](https://git-scm.com/) Git was used for version control.
  - [GitHub](https://github.com/) GitHub is used to store the projects code.
@@ -138,10 +138,13 @@ The background image is a green coloured leopard seamless pattern created in Ado
  - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
  - [color.a11y.com](https://color.a11y.com) used for testing colour contrasts. 
  - [audit.deque.com](https://audit.deque.com) used to check for any accessibility issues. 
- </details> 
+
+</details> 
 
 
 # Testing
+<details>
+  <summary>Testing</summary>
 
 * ## Code Validation
 
@@ -230,6 +233,11 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 ![Chrome Mobile Lighthouse](assets/readme-images/bug_fix.png)
 
+</details>
+
+<details>
+  <summary>Deployment</summary>
+
  # Deployment
   ### **Project Deployment steps**
   The follwing steps were taken to deploy my website to GitHub pages. 
@@ -238,7 +246,10 @@ The background image is a green coloured leopard seamless pattern created in Ado
   3. Next, select the branch **main** under **Source** and click **save**.
   4. Finally, the page should automatically refresh, making the deployed link visible.
 
-The live link can be found <a href="https://chasingash.github.io/kids-art-classes/" target="_blank" rel="noopener">Here</a>
+</details>
+
+<details>
+  <summary>Credits</summary>
 
  # Credits
  ## Content
@@ -255,3 +266,5 @@ The live link can be found <a href="https://chasingash.github.io/kids-art-classe
 * # Acknowledgments
 
 I would like to thank the slack community, my mentor and all at the Code Institute for their continued help and support throughout this whole process and to Mike who provided the layout i used to create this readme file.
+
+</details>
