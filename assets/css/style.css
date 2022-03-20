@@ -93,15 +93,17 @@ p {
     font-size: 1rem;
     font-weight: 100;
     margin-top: 2em;
-    color: #7bc9a2;
+    color: antiquewhite;
 }
 
 .link {
-    color: pink;
+    background-color: #af588b;
+    color: #7bc9a2;
 }
 
 .link:hover {
-    background-color: #af588b;
+    background-color: #d99aad;
+    color: #01474f;
 }
 
 h3 {
