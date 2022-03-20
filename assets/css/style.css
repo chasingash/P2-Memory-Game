@@ -242,6 +242,12 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 	height: 100%;
 }
 
+.modal-h1 {
+    color: #7bc9a2;
+    text-shadow: 2px 4px #01474f;
+    font-size: 2.7em;
+}
+
 .modal-h2 {
     color: #7bc9a2;
     text-shadow: 2px 4px #01474f;
