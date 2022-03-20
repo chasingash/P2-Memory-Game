@@ -27,7 +27,7 @@ For my second project, I will develop an interactive Front-End web application u
   
   ##### Return Visitor Goals:
   For return visitors:  
-  - Gauge my performance.
+  - Gauge performance.
   - Play game on various devices.
   
   ##### Website's Owner Goals.
@@ -73,6 +73,12 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
     Desktop view
   ![Desktop view](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647815506/P2/Screenshot_2022-03-20_at_22.31.17_psgicx.png) 
+
+  ### Instruction Page 
+  On loading, the instructions are clearly visible below the game title.(positioning is relative to screen size).
+  This satisfies the user need to quickly understand how to play the game.
+
+  ![picture of the instructions](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.38_gkxpur.png)
 
 
 # Technologies Used
