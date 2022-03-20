@@ -189,13 +189,11 @@ img {
     padding: .3em 0 1em;
     background: rgba(1, 71, 79, 0.75);
     border-radius: .5em;
-
 }
 
 .score-panel h3 {
     font-weight: 600;
     text-shadow: 2px 4px #af588b;
-
 }
 
 .moves-counter {
@@ -210,9 +208,9 @@ img {
 }
 
 .timer-container {
-    background: #d99aad;
+    background: #af588b;
     border-radius: 0.5em;
-    color: #af588b;
+    color: #faebd7;
     font-weight: bold;
     margin: 0.5em;
     padding: 0.5em;
