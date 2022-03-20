@@ -103,11 +103,11 @@ The background image is a green coloured leopard seamless pattern created in Ado
   ![a picture of the victory screen](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647811709/P2/Screenshot_2022-03-20_at_21.28.14_hokzke.png)
 
   ### Future Features
-    Extra features I's like to include are:
-    - Different levels to increase difficulty.
-    - Sound effects when clicking on cards and especially when a pair have been matched.
-    - More detailed instuctions added to a modal with all extra features included.
-    
+
+  Extra features I'd like to implement
+  1. More levels to increse difficulty.
+  2. Sound effects to clicked on cards.
+  3. More detailed instructions added to a modal with all extra features included.
 
   </details>
 
