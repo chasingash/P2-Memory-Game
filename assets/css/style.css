@@ -70,11 +70,15 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: .1em;
     font-weight: bolder;
+    color: antiquewhite;
+    text-transform: uppercase;
+    margin: .5em 0;
 }
+
 
 p {
     font-size: 1.4rem;
@@ -188,13 +192,13 @@ img {
 
 .moves-counter {
     padding: 0.5em;
-    color: white;
+    color: antiquewhite;
 }
 
 .reset-btn {
     background: none;
     border: .2em solid #7bc9a2;
-    color: aliceblue;
+    color: antiquewhite;
 }
 
 .timer-container {

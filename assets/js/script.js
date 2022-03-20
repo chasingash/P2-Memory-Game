@@ -125,7 +125,6 @@ function match() {
 		opened = [];
 	}, 600);
 	movesCounter();
-	starRating();
 }
 
 /*
@@ -143,7 +142,6 @@ function noMatch() {
 		opened = [];
 	}, 700);
 	movesCounter();
-	starRating();
 }
 
 // Get stats on the time, how many moves and update the modal with these stats
@@ -214,10 +212,6 @@ call flipCard()
 */
 deck.addEventListener("click", function (evt) {
 	if (evt.target.nodeName === "LI") {
-		// To console if I was clicking the correct element 
-		console.log(evt.target.nodeName + " Was clicked");
-		// Start the timer after the first click of one card
-		// Executes the timer() function
 		if (timeStart === false) {
 			timeStart = true;
 			timer();
