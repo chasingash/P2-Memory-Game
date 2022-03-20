@@ -108,9 +108,9 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    height: 35em;
-    width: 35em;
-    padding: .5em;
+    height: 30em;
+    width: 30em;
+    padding: .4em;
     margin: 1em 0;
 }
 
