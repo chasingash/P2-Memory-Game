@@ -97,6 +97,17 @@ The background image is a green coloured leopard seamless pattern created in Ado
     
   ![a picture of the timer section](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647816279/P2/Screenshot_2022-03-20_at_22.44.34_qrku8c.png)  
 
+  ### Modal Screen
+  When all cards are matched, a modal screen is displayed with a congratulatory message and details of the time taken and how many moves it took to complete.  
+
+  ![a picture of the victory screen](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647811709/P2/Screenshot_2022-03-20_at_21.28.14_hokzke.png)
+    
+    ### Future Features
+    Extra features I's like to include are:
+    - Different levels to increase difficulty.
+    - Sound effects when clicking on cards and especially when a pair have been matched.
+    - More detailed instuctions added to a modal with all extra features included.
+
   </details>
 
 
