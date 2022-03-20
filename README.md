@@ -80,6 +80,12 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
   ![picture of the instructions](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647812061/P2/Screenshot_2022-03-20_at_21.33.38_gkxpur.png)
 
+  ### Timer
+  The time is tracked once the game starts and continues until all pairs are mateched. The timer is placed just below the game board. When the player completes the final pair the time taken as well as how many moves it took to get there is displayed in the modal screen display area. This satisfies the players need to be able to gauge their performancee.  
+    
+    
+  ![a picture of the timer section](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647816279/P2/Screenshot_2022-03-20_at_22.44.34_qrku8c.png)  
+
 
 # Technologies Used
 
