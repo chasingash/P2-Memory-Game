@@ -16,6 +16,11 @@ For my second project, I will develop an interactive Front-End web application u
 
 
 # User Experience (UX)
+
+<details>
+  
+  <summary>User Experience/User Interface (UX/UI)</summary>
+
 ### User Stories
   
   ##### First Time Visitor Goals:
@@ -60,7 +65,13 @@ All illustrations used for the cards are my own original designs that i created 
 The background image is a green coloured leopard seamless pattern created in Adobe Illustrator.
  ![Background image](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647704056/P2/animal_skin_green_tones_vammmi.svg)  
 
+ </details>
+
 # Features
+
+<details>
+  
+  <summary>Features</summary>
 
 ### Responsive  Website
   The site displays properly on a wide range of screen sizes. 
@@ -85,6 +96,8 @@ The background image is a green coloured leopard seamless pattern created in Ado
     
     
   ![a picture of the timer section](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647816279/P2/Screenshot_2022-03-20_at_22.44.34_qrku8c.png)  
+
+  </details>
 
 
 # Technologies Used
