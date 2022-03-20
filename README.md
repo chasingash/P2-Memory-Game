@@ -111,19 +111,35 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
   </details>
 
-
+    
 # Technologies Used
+<details>
+ <summary>Technologies Used</summary>
+ #### Languages Used
+ 
+- HTML5
+ - CSS
+ - Javascript
+  #### Applications Used
+ 
+ - [Git](https://git-scm.com/) Git was used for version control.
+ - [GitHub](https://github.com/) GitHub is used to store the projects code.
+ - [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
+ -  [Balsamiq](https://www.balsamiq.com) was used to create wireframes for this project.
+ -  [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
+ - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
+ - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
+ - [Wave](https://wave.webaim.org/) used for accessibility testing.
+ - [favICO.com](https://convertico.com/favicon/) used for creating favicon.
+ - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
+ - [Jshint](https://jshint.com/) used to validate Javascript code.
+ - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatibility.
+ - [Freeconvert.com](https://www.freeconvert.com) was used to convert the background image file to the  webp format.
+ - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
+ - [color.a11y.com](https://color.a11y.com) used for testing colour contrasts. 
+ - [audit.deque.com](https://audit.deque.com) used to check for any accessibility issues. 
+ </details> 
 
-* [HTML5](https://en.wikipedia.org/wiki/HTML) - to provide content and structure for the website.
-* [CSS3](https://en.wikipedia.org/wiki/CSS) - for styling the website. 
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) -  to enable responsiveness for mobile navigation.
-* [Balsamiq](https://balsamiq.com/) - to create the wireframes.
-* [Photoshop](https://www.adobe.com) -  used to compress the images.
-* [Pantone](https://www.pantone.com) -  to select the the proper hex code for this years colour of the year and complimentary colours. 
-* [Font Awesome](https://www.fontawesome.com/) - for social media icons.
-* [Gitpod](https://www.gitpod.io/) - Used to develop the website.
-* [Github](https://www.github.com) - for hosting and deployment.
-* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to GitHub repository.
 
 # Testing
 
