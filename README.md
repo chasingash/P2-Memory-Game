@@ -174,7 +174,7 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 * ## Accessibility Testing
 * Ran Website through a11y to test colour contrast and found no issues. 
-  ![a11y Test](assets/readme-images/a11y_contrast_test_image.png)
+  ![a11y Test](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647823257/P2/Screenshot_2022-03-21_at_00.40.51_ycfpwn.png)
   
 * ## Responsive Testing
   * Google Chrome DevTools and Responsive Design Checker were used to test the responsiveness  of the website. 
