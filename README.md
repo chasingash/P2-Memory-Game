@@ -129,18 +129,13 @@ The background image is a green coloured leopard seamless pattern created in Ado
  - [GitHub](https://github.com/) GitHub is used to store the projects code.
  - [Gitpages](https://pages.github.com/) Gitpages are used to deploy the site.
  -  [Balsamiq](https://www.balsamiq.com) was used to create wireframes for this project.
- -  [Google Fonts](https://fonts.google.com/) fonts were downloaded from Google Fonts.
  - [Fontawesome](https://www.fontawesome.com) icons were downloaded from Font Awesome.com.
  - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) used for layout and responsive testing.
  - [Wave](https://wave.webaim.org/) used for accessibility testing.
  - [favICO.com](https://convertico.com/favicon/) used for creating favicon.
  - [W3 Validator](https://jigsaw.w3.org/css-validator/) used to test html and css code.
  - [Jshint](https://jshint.com/) used to validate Javascript code.
- - [autoprefixer.github.io](https://autoprefixer.github.io/) used to improve browser compatibility.
- - [Freeconvert.com](https://www.freeconvert.com) was used to convert the background image file to the  webp format.
- - [https://caniuse.com/webp](https://caniuse.com/webp)  used to check compatibility of the webp file format.
  - [color.a11y.com](https://color.a11y.com) used for testing colour contrasts. 
- - [audit.deque.com](https://audit.deque.com) used to check for any accessibility issues. 
 
 </details> 
 
@@ -167,7 +162,7 @@ The background image is a green coloured leopard seamless pattern created in Ado
   ![a picture of the jshint result](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647819854/P2/Screenshot_2022-03-20_at_23.44.07_buu1ij.png) 
 
 * ### WAVE Web Accessibility Evaluation Tool
-  The WAVE tool was used to test the page for accessibility.  The inital result produced 8 contrast errors, these were caused by the colour of the ink used for the times  (orange).  
+  The WAVE tool was used to test the page for accessibility.  The inital result produced 8 contrast errors, these were caused by the colour of the ink used for the times  (fushia as a drop shadow behid the green text). I updated the colour to black for the drop shadow and that fixed the issue.  
     
   ![ a picture of the initial wave result](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647854885/P2/Screenshot_2022-03-21_at_09.27.59_aqvejg.png)  
 
@@ -233,12 +228,16 @@ The background image is a green coloured leopard seamless pattern created in Ado
 <details>
   <summary>Deployment</summary>
 
+  This project was built on the Gitpod IDE using the Code Institute template found here:<br>https://github.com/Code-Institute-Org/gitpod-full-template
+
   ### **Project Deployment steps**
   The follwing steps were taken to deploy my website to GitHub pages. 
   1. In the GitHub repository, navigate to the **Settings** tab.
   2. In settings, scroll down to the **Pages** tab.
   3. Next, select the branch **main** under **Source** and click **save**.
   4. Finally, the page should automatically refresh, making the deployed link visible.
+
+![ghpages-published](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647858919/P2/Screenshot_2022-03-21_at_10.35.13_gotyfk.png) 
 
 </details>
 
@@ -248,10 +247,22 @@ The background image is a green coloured leopard seamless pattern created in Ado
   <summary>Credits</summary>
 
  ## Content
+
+ #### Code/Reference 
+
+  I used [stackoverflow](http://stackoverflow.com/a/2450976) for the shuffle function.
+  [w3schools](https://www.w3schools.com/js/js_timing.asp) for the timer.
+  [w3schools](https://www.w3schools.com/js/js_timing.asp) used to stop timer once all pairs are matched.
+  [w3school](https://www.w3schools.com/howto/howto_css_modals.asp) To display the modal on winning the game.
+  The [w3 schools](https://www.w3schools.com/jsref/default.asp) Learned about element attributes and how best to set them.  
+  I used the [Udemy](https://www.udemy.com/course/modern-javascript-from-novice-to-ninja) "Modern Javascript" course for information regarding Modal screens, event delegation and arrow functions.  
+  The following youtube tutorials and code used in the development of my project:
+  [Youtube](https://www.youtube.com/watch?v=-tlb4tv4mC4&t=380s)
+  [Youtube](https://www.youtube.com/watch?v=Y4lOwOOK7yE)
+  [Youtube](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1815s)
+  The [Code Institute](https://www.CodeInstitute.net) course material.
+  
  
- * Timer Icon from Font Awesome
- * JavaScript code used to create the responsive navigation bar https://
- * W3schools
 
 ## Media
 * All images and video were sourced from Pexels.com

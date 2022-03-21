@@ -16,6 +16,8 @@ let minutes = 0;
 let seconds = 0;
 let timeStart = false;
 
+// code used to understand the game and implemented into my own project https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1815s
+
 // Shuffle function found on http://stackoverflow.com/a/2450976
 function shuffle(array) {
 	let currentIndex = array.length,
