@@ -257,6 +257,6 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 * # Acknowledgments
 
-A special thanks to thank my mentor, Daisy who always steered me in the right direction and shown great empthy as I struggled through this module. I feeel more time is needed to properly devle into JS. Also,  a big thanks to the girls in my group for their continued support throughout this whole process.
+A special thanks to my mentor, Daisy who always steered me in the right direction and shown great empthy as I struggled through this module. I feel more time is needed to properly devle into JS. Also, a big thanks to the girls in my group for their continued support throughout this whole process and Kasia for always checking in with least expected.
 
 </details>
