@@ -194,12 +194,12 @@ The background image is a green coloured leopard seamless pattern created in Ado
     * Landing/game Page
       * Ensure name is clearly seen at the top of page.
       * Ensure responsiveness on all screen sizes.
-      * Ensure instructions are clearly defined and visible 
-      * Ensure that when cards are cliped they flip over
-      * Ensure that matching cards stay flipped
-      * Ensure that when all cards have been matched that the congrats modal pops up displaying the time and number of moves it took the player to complete the game
+      * Ensure instructions are clearly defined and visible.
+      * Ensure that when cards are clicked, they flip over.
+      * Ensure that matching cards stay flipped.
+      * Ensure that when all cards have been matched that the congrats modal pops up displaying the time and number of moves it took the player to complete the game.
       * Ensure that the x and play again buttons are working.
-      * Ensure hover effects are working for the buttons
+      * Ensure hover effects are working for the buttons.
       * Ensure the exteranl link at the botton of my screen is working.
       * Ensure that link opens in a new tab.
       * Ensure the footer is fully responsive. 
