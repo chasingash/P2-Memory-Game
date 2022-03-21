@@ -158,6 +158,17 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 ![CSS Validation](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647819405/P2/Screenshot_2022-03-20_at_23.15.15_hvzqah.png)
 
+* ### JSHint
+  The Javascript file was validated using JSHint, with the following result.  The `New JavaScript features (ES6)` option was ticked in the 
+  Configure menu. 
+  
+  ![a picture of the jshint result](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647819854/P2/Screenshot_2022-03-20_at_23.44.07_buu1ij.png) 
+
+* ### WAVE Web Accessibility Evaluation Tool
+  The WAVE tool was used to test the page for accessibility.  The inital result produced 8 contrast errors, these were caused by the colour of the ink used for the times  (orange).  
+    
+  ![ a picture of the initial wave result](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647854885/P2/Screenshot_2022-03-21_at_09.27.59_aqvejg.png)  
+
 * ## Lighthouse Testing
 
 * The Website has been put through the Chrome Dev Tools which tests for the following:
@@ -167,10 +178,10 @@ The background image is a green coloured leopard seamless pattern created in Ado
   * SEO - Which stands for Search Engine Optimisation. Is the site optimised for search engine result ranking.
 
 * ### Chrome Desktop Lighthouse result
-  ![Chrome Desktop Lighthouse](assets/readme-images/lighthouse_desktop_image.png)
+  ![Chrome Desktop Lighthouse](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647856453/P2/Screenshot_2022-03-21_at_09.28.54_ihxyxn.png)
 
 * ### Chrome Mobile Lighthouse Result
-  ![Chrome Mobile Lighthouse](assets/readme-images/lighthouse_mobile_image.png)
+  ![Chrome Mobile Lighthouse](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647856453/P2/Screenshot_2022-03-21_at_09.53.53_ib4zj1.png)
 
 * ## Accessibility Testing
 * Ran Website through a11y to test colour contrast and found no issues. 
