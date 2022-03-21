@@ -142,7 +142,6 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 </details> 
 
-
 # Testing
 <details>
   <summary>Testing</summary>
@@ -153,11 +152,11 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 * ### HTML Validation Image
 
-![HTML Validation](assets/readme-images/html_validation_image.png)
+![HTML Validation](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647819405/P2/Screenshot_2022-03-20_at_23.35.53_ng5ebx.png)
 
 * ### CSS Validation Image
 
-![CSS Validation](assets/readme-images/css_validation_image.png)
+![CSS Validation](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647819405/P2/Screenshot_2022-03-20_at_23.15.15_hvzqah.png)
 
 * ## Lighthouse Testing
 
