@@ -40,7 +40,7 @@ function startGame() {
 		const addImage = document.createElement("IMG");
 		liTag.appendChild(addImage);
 		addImage.setAttribute("src", "assets/images/" + shuffledDeck[i] + "?raw=true");
-		addImage.setAttribute("alt", "image of vault boy from fallout");
+		addImage.setAttribute("alt", "cards");
 		deck.appendChild(liTag);
 	}
 }
