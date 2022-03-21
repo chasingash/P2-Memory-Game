@@ -183,40 +183,29 @@ The background image is a green coloured leopard seamless pattern created in Ado
   * To ensure that everything was working properly and up to a professional startard, I conducted a number of manual tests.
 
   * ## Tests Conducted
-    * Navigation Menu
-      * Ensure that upon clicking, the Logo navgates back to the top of page.
-      * Ensure that all links to the different sections are funtioning as intended.
-      * Ensure that all hover effects are consistent on all buttons.
-      * Ensure that the navigation bar is fully responsive. 
-      * Ensure that when clicked, all navigation links scroll smoothly to their correct section of the page.
-      * Ensure that the hamburger menu is fully funtional when clicked. 
-      * Ensure that the navigation is fixed in position upon scrolling down and when navigation links are selected.
-      * Ensure the contact button has a hover effect. 
+    * 
+      * 
+      * 
+      * 
+      * 
 
-    * Home/Landing Section
-      * Ensure the Hero image is not pixelated and fully responsive across all devices. 
-      * Ensure that all elements are fully responsive.
-      * Ensure that the main text, sub-text and call to action button are central to the page and responsive.
-      * Ensure all images are optimished and have alt functions.
-      * Ensure that when clicked, the call to action button takes the suer to the class information section.
-      * Ensure the call to action button has a hover effect. 
+    * 
+      *  
+      * 
+      * 
+      * 
 
-    * About Section
-      * Ensure text is presented clearly with the correct font style and sizing. 
-      * Ensure text is revised and checked for any spelling errors that might have occured in teh development phase.
-      * Ensure the About section is fully responsive across all devices.
+    * 
+      * 
+      * 
+      * 
 
-    * Class Information Section
-      * Ensure that all elements are aligned properly and centered.
-      * Ensure that all elements are fully responsive.
-  
-    * Contact section
-      * Ensure that all elements that are set to required are working properly.
-      * Ensure that the "submit" button lets the user know that the submission was successful.
-      * Ensure the contact section is fully responsive.
+    * 
+      * 
+      * 
   
     * Footer Section
-      * Ensure that all social links open in a new tab.
+      * Ensure that link opens in a new tab.
       * Ensure the footer is fully responsive. 
 
 * ## Bug Fixes
@@ -225,20 +214,12 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
     I resolved with media queries and ajusting the margin and padding. 
 
-* Another issue i had was with the navigation links not stopping at the right section and catching the fixed navigation bar to cut some of the section of. 
-
-![Chrome Mobile Lighthouse](assets/readme-images/bug.png)
-
-  I resolved this by wrapping the container inside a span element and giving it a unique ID. The i added a relative position to it in css which fixed the issue. 
-
-![Chrome Mobile Lighthouse](assets/readme-images/bug_fix.png)
-
 </details>
 
+# Deployment
 <details>
   <summary>Deployment</summary>
 
- # Deployment
   ### **Project Deployment steps**
   The follwing steps were taken to deploy my website to GitHub pages. 
   1. In the GitHub repository, navigate to the **Settings** tab.
@@ -248,10 +229,11 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 </details>
 
+ # Credits
+
 <details>
   <summary>Credits</summary>
 
- # Credits
  ## Content
  
  * Timer Icon from Font Awesome
