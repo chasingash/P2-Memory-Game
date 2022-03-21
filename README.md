@@ -6,7 +6,7 @@ Project is deployed [here](https://chasingash.github.io/P2-Memory-Game/)
  
 Github repository is [here](https://github.com/chasingash/P2-Memory-Game)
  
-![screen shot of am i responsive](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647805432/P2/Screenshot_2022-03-20_at_19.43.46_uzcujz.png)
+![screen shot of am i responsive](https://res.cloudinary.com/dtbdqnrln/image/upload/v1647827893/P2/Screenshot_2022-03-21_at_01.58.01_rgyjx4.png)
 
 
 
