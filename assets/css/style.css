@@ -78,14 +78,14 @@ h2 {
     font-weight: 400;
     letter-spacing: .1em;
     font-weight: bolder;
-    color: #faebd7;
+    color: whitesmoke;
     text-transform: uppercase;
     margin: .5em 0;
 }
 
 p {
     font-size: 1.2rem;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 #footer {
@@ -94,17 +94,17 @@ p {
     font-size: 1rem;
     font-weight: 100;
     margin-top: 2em;
-    color: antiquewhite;
+    color: whitesmoke;
 }
 
 .link {
-    background-color: #faebd7;
+    background-color: whitesmoke;
     color: #01474f;
 }
 
 .link:hover {
     background-color: #01474f;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 h3 {
@@ -199,19 +199,19 @@ img {
 
 .moves-counter {
     padding: 0.5em;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 .reset-btn {
     background: none;
     border: .2em solid #7bc9a2;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 .timer-container {
     background: #af588b;
     border-radius: 0.5em;
-    color: #faebd7;
+    color: whitesmoke;
     font-weight: bold;
     margin: 0.5em;
     padding: 0.5em;
@@ -270,7 +270,7 @@ https://www.w3schools.com/howto/howto_css_modals.asp
 
 .close:hover,
 .close:focus {
-	color: #faebd7;
+	color: whitesmoke;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -284,7 +284,7 @@ p.stats:last-child {
 }
 
 .play-again-btn {
-	background: #faebd7;
+	background: whitesmoke;
     color: #af588b;
 	margin: 1em 0;
     font-size: 1.2rem;
@@ -292,7 +292,7 @@ p.stats:last-child {
 
 .play-again-btn:hover {
     background: #d99aad;
-    color: #faebd7;
+    color: whitesmoke;
 }
 
 /* Media Queries */
