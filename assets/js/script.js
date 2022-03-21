@@ -3,14 +3,14 @@ const deckCards = ["card1.jpg", "card1.jpg", "card2.jpg", "card2.jpg", "card3.jp
 
 // Variables
 const deck = document.querySelector(".deck");
-let opened = [];
-let matched = [];
 const modal = document.getElementById("modal");
 const reset = document.querySelector(".reset-btn");
 const playAgain = document.querySelector(".play-again-btn");
 const movesCount = document.querySelector(".moves-counter");
-let moves = 0;
 const timeCounter = document.querySelector(".timer");
+let opened = [];
+let matched = [];
+let moves = 0;
 let time;
 let minutes = 0;
 let seconds = 0;
@@ -46,15 +46,13 @@ function startGame() {
 }
 
 startGame();
-
 function removeCard() {
-
 	while (deck.hasChildNodes()) {
 		deck.removeChild(deck.firstChild);
 	}
 }
 
-// Used to update the timer -  https://www.w3schools.com/js/js_timing.asp
+// Update the timer -  https://www.w3schools.com/js/js_timing.asp
 
 function timer() {
 	time = setInterval(function () {
@@ -68,7 +66,6 @@ function timer() {
 	}, 1000);
 }
 // Used to stop timer once all 8 pairs are matched - https://www.w3schools.com/js/js_timing.asp
-
 function stopTime() {
 	clearInterval(time);
 }
@@ -89,12 +86,10 @@ function resetEverything() {
 }
 
 // Moves counter for each matching pair of cards
-
 function movesCounter() {
 	movesCount.innerHTML++;
 	moves++;
 }
-
 
 // Compare two cards to see if they match
 function compareTwo() {
@@ -109,13 +104,10 @@ function compareTwo() {
 }
 
 /*
-If the two cards match, keep the cards open and
+If two cards match, keep the cards open and
 apply class of match
 */
 function match() {
-	/* Access the two cards in opened array and add
-	the class of match to the images parent: the <li> tag
-	*/
 	setTimeout(function () {
 		opened[0].parentElement.classList.add("match");
 		opened[1].parentElement.classList.add("match");
@@ -133,8 +125,6 @@ from the opened array and flip the cards back over by
 removing the flip class.
 */
 function noMatch() {
-	/* After 700 miliseconds the two cards open will have
-	the class of flip removed from the images parent element <li>*/
 	setTimeout(function () {
 		opened[0].parentElement.classList.remove("flip");
 		opened[1].parentElement.classList.remove("flip");
@@ -146,20 +136,13 @@ function noMatch() {
 
 // Get stats on the time, how many moves and update the modal with these stats
 function AddStats() {
-	// Access the modal content div
 	const stats = document.querySelector(".modal-content");
-	// Create three different paragraphs
 	for (let i = 1; i <= 3; i++) {
-		// Create a new Paragraph
 		const statsElement = document.createElement("p");
-		// Add a class to the new Paragraph
 		statsElement.classList.add("stats");
-		// Add the new created <p> tag to the modal content
 		stats.appendChild(statsElement);
 	}
-	// Select all p tags with the class of stats and update the content
 	let p = stats.querySelectorAll("p.stats");
-	// Set the new <p> to have the content of stats (time and moves)
 	p[0].innerHTML = "Time to complete: " + minutes + " Minutes and " + seconds + " Seconds";
 	p[1].innerHTML = "Moves Taken: " + moves;
 }
@@ -170,16 +153,11 @@ Help with the modal from:
 https://www.w3schools.com/howto/howto_css_modals.asp
 */
 function displayModal() {
-	// Access the modal <span> element (x) that closes the modal
 	const modalClose = document.getElementsByClassName("close")[0];
-	// When the game is won set modal to display block to show it
 	modal.style.display = "block";
-
-	// When the user clicks on <span> (x), close the modal
 	modalClose.onclick = function () {
 		modal.style.display = "none";
 	};
-	// When the user clicks anywhere outside of the modal, close it
 	window.onclick = function (event) {
 		if (event.target == modal) {
 			modal.style.display = "none";
@@ -187,13 +165,11 @@ function displayModal() {
 	};
 }
 
-
 /*
 Check the length of the matched array and if there
 are 8 pairs 16 cards all together then the game is won.
 Stop the timer update the modal with stats and show the modal
 */
-
 function winGame() {
 	if (matched.length === 16) {
 		stopTime();
@@ -201,7 +177,6 @@ function winGame() {
 		displayModal();
 	}
 }
-
 
 // Main Event Listener
 
@@ -216,23 +191,17 @@ deck.addEventListener("click", function (evt) {
 		flipCard();
 	}
 
-	//Flip the card and display cards img
 	function flipCard() {
-		// When <li> is clicked add the class .flip to show img
 		evt.target.classList.add("flip");
-		// Call addToOpened() function
 		addToOpened();
 	}
-	//Add the fliped cards to the empty array of opened
 	function addToOpened() {
 		/* If the opened array has zero or one other img push another 
 		img into the array so we can compare these two to be matched
 		*/
 		if (opened.length === 0 || opened.length === 1) {
-			// Push that img to opened array
 			opened.push(evt.target.firstElementChild);
 		}
-		// Call compareTwo() function
 		compareTwo();
 	}
 }); //Event Listener
@@ -240,16 +209,8 @@ deck.addEventListener("click", function (evt) {
 /*----------------------------------  
 Restart Buttons
 ------------------------------------*/
-/*
-Event Listener to listen for a click on the reset
-button, once clicked call resetEverything()
-*/
 reset.addEventListener('click', resetEverything);
 
-/*
-Event Listener to listen for a click on the play
-again button, once clicked call resetEverything()
-*/
 playAgain.addEventListener('click', function () {
 	modal.style.display = "none";
 	resetEverything();
