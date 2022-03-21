@@ -191,28 +191,16 @@ The background image is a green coloured leopard seamless pattern created in Ado
   * To ensure that everything was working properly and up to a professional startard, I conducted a number of manual tests.
 
   * ## Tests Conducted
-    * 
-      * 
-      * 
-      * 
-      * 
-
-    * 
-      *  
-      * 
-      * 
-      * 
-
-    * 
-      * 
-      * 
-      * 
-
-    * 
-      * 
-      * 
-  
-    * Footer Section
+    * Landing/game Page
+      * Ensure name is clearly seen at the top of page.
+      * Ensure responsiveness on all screen sizes.
+      * Ensure instructions are clearly defined and visible 
+      * Ensure that when cards are cliped they flip over
+      * Ensure that matching cards stay flipped
+      * Ensure that when all cards have been matched that the congrats modal pops up displaying the time and number of moves it took the player to complete the game
+      * Ensure that the x and play again buttons are working.
+      * Ensure hover effects are working for the buttons
+      * Ensure the exteranl link at the botton of my screen is working.
       * Ensure that link opens in a new tab.
       * Ensure the footer is fully responsive. 
 
@@ -220,7 +208,7 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
 * After testing the site on different screen sizes, i discovered some text was not aligned properly which on further investigation appeared to be due to margin and padding issues. 
 
-    I resolved with media queries and ajusting the margin and padding. 
+    I resolved with media queries and adjusted the margin and padding. 
 
 </details>
 
@@ -261,15 +249,9 @@ The background image is a green coloured leopard seamless pattern created in Ado
   [Youtube](https://www.youtube.com/watch?v=Y4lOwOOK7yE)
   [Youtube](https://www.youtube.com/watch?v=ZniVgo8U7ek&t=1815s)
   The [Code Institute](https://www.CodeInstitute.net) course material.
-  
- 
-
-## Media
-* All images and video were sourced from Pexels.com
-* All images compressed using Adobe Photoshop
 
 * # Acknowledgments
 
-I would like to thank the slack community, my mentor and all at the Code Institute for their continued help and support throughout this whole process and to Mike who provided the layout i used to create this readme file.
+A special thanks to thank my mentor, Daisy who always steered me in the right direction and shown great empthy as I struggled through this module. I feeel more time is needed to properly devle into JS. Also,  a big thanks to the girls in my group for their continued support throughout this whole process.
 
 </details>
