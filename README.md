@@ -253,10 +253,9 @@ The background image is a green coloured leopard seamless pattern created in Ado
 
  # Credits
  ## Content
- * Font from Google fonts
- * Icons from Font Awesome
- * JavaScript code used to create the responsive navigation bar https://youtu.be/D-h8L5hgW-w
- * All other code used as inspiration, I added with comments to the css file.
+ 
+ * Timer Icon from Font Awesome
+ * JavaScript code used to create the responsive navigation bar https://
  * W3schools
 
 ## Media
