@@ -1,6 +1,8 @@
 # JUNGLE MEMORY GAME - Project Portfolio 2  - HTML, CSS & JavaScript
 
 Jungle Memory Game is a matching game using custom vector patterns I created in Adobe illustrator. This is a solo player game. It is timed and counts how many moves it takes to find all matching pairs. This mini web game is fully responsive, created with mobile-first in mind.
+
+Memory games help children and Adults alike, to improve focus and concencentration while improving overall mental function.Both short and long-term memory are imprived as well as visual recognition.
  
 Project is deployed [here](https://chasingash.github.io/P2-Memory-Game/)
  
